@@ -55,10 +55,24 @@ html{
     justify-self: center;
 }
 
-#reset{
+#reset, #new{
     background: linear-gradient(45deg, rgb(105, 143, 3), rgb(172, 231, 7));
     font-size: 1.3rem;
     border-style: none;
     border-radius: 20px;
-    padding: 0.8rem 1.4rem;
+}
+
+#reset{
+    padding: 0.8rem 2.55rem;
+}
+
+#new{
+    padding: 0.8rem 1rem;
+    margin-right: 2vw;
+}
+
+#message{
+    justify-self: center;
+    margin-bottom: 3vh;
+    grid-column: 1 / span 2;
 }
