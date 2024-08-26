@@ -120,6 +120,7 @@ document.addEventListener("DOMContentLoaded", () =>{
         let score1 = document.getElementById("p1");
         let score2 = document.getElementById("p2");
         score1.textContent = score2.textContent = '0';
+        rounds = 0;
         game.resetBoard();
         resetBoard();
         players[0].resetScore();
